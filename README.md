@@ -1,6 +1,6 @@
-# Everything-PowerShell-Module
+# "Everything" PowerShell Module
 
-A PowerShell module which uses the "Everything" search API
+A PowerShell module which uses the "Everything" search application & API
 
 I have no affiliation with [Voidtools](http://www.voidtools.com/)
 
