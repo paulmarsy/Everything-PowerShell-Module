@@ -1,8 +1,7 @@
 function Find-FileFromEverything {
     [CmdletBinding()]
     param(
-        [Parameter(Mandatory=$true)]
-        $Query,
+        [Parameter(Mandatory=$true)][ValidateNotNullOrEmpty()][string]$Query,
         [switch]$Paging
     )
     
@@ -13,7 +12,8 @@ function Find-FileFromEverything {
 
     $numberOfResults = [Voidtools.Everything.SDK]::Everything_GetNumResults()
 
-    Write-Host -ForegroundColor Green "Number of results: $numberOfResults"
+    Write-Host
+    Write-Host -ForegroundColor Cyan "`tNumber of results: $numberOfResults"
     Write-Host
 	
     $bufferSize = 255
