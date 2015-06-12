@@ -18,8 +18,8 @@ function Find-FileFromEverything {
 	
     $bufferSize = 255
 	$buffer = New-Object -Type System.Text.StringBuilder -ArgumentList $bufferSize
-    0..$numberOfResults | % {
-        [Voidtools.Everything.SDK]::Everything_GetResultFullPathNameW($_, $buffer, $bufferSize) | Out-Null
-        Write-Output ($buffer.ToString())
+	0..$numberOfResults | % {
+        	[Voidtools.Everything.SDK]::Everything_GetResultFullPathNameW($_, $buffer, $bufferSize) | Out-Null
+        	Write-Output ($buffer.ToString())
 	} | Out-Host -Paging:$Paging
 }
