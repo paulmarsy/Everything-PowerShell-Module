@@ -2,4 +2,7 @@
 
 A PowerShell module which uses the "Everything" search API
 
-http://www.voidtools.com/
+I have no affiliation with [Voidtools](http://www.voidtools.com/)
+
+### License
+[MIT](https://github.com/paulmarsy/Everything-PowerShell-Module/raw/master/LICENSE)
