@@ -97,7 +97,7 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/paulmarsy/PowerShell-Console-Module/'
+        ProjectUri = 'https://github.com/paulmarsy/Everything-Console-Module/'
 
         # A URL to an icon representing this module.
         # IconUri = ''
@@ -110,7 +110,7 @@ PrivateData = @{
 } # End of PrivateData hashtable
 
 # HelpInfo URI of this module
-HelpInfoURI = 'https://github.com/paulmarsy/PowerShell-Console-Module/'
+HelpInfoURI = 'https://github.com/paulmarsy/Everything-Console-Module/'
 
 # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
 # DefaultCommandPrefix = ''
